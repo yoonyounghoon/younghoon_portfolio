@@ -19,16 +19,17 @@
           <a href="#">Younghoon</a>
         </div>
         <ul class="navbar__menu">
-            <li class="navbar__menu__item active">Home</li>
-            <li class="navbar__menu__item">About</li>
-            <li class="navbar__menu__item">Skills</li>
-            <li class="navbar__menu__item">My work</li>
-            <li class="navbar__menu__item">Testimonials</li>
-            <li class="navbar__menu__item">Contact</li>
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My work</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
         <!-- Toggle button -->
         <button class="navbar__toggle-btn"><i class="fas fa-bars"></i></button>
     </nav>
+
     <!-- Home -->
     <section id="home" >
       <img src="./imgs/avatar.png" alt="Younghoon`s photo" class="home__avatar">
@@ -131,6 +132,7 @@
       </div>
       </div>
     </section>
+
     <!-- Work -->
     <section id="work" class="section">
       <div class="section container">
@@ -202,7 +204,8 @@
               </a>
             </div>
           </div>
-          </section>
+    </section>
+
     <!-- Testimonials -->
     <section id="testimonials" class="section">
       <div class="section__container">
@@ -231,15 +234,16 @@
           </div>    
         </div>
       </div>
-      </section>
-      <!-- Contact -->
-      <section id="contact" class="section">
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
         <h1 class="contact__title">Let`s talk</h1>
         <h2 class="contact__email">yunyounghoon23@gmail.com</h2>
         <div class="contact__links">
           <a href="https://github.com/yoonyounghoon" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         <p class="contact__rights">2021.01 younghoon</p>
-      </section>
+    </section>
     </body>
     </html>
